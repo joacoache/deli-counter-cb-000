@@ -3,7 +3,7 @@ def line(katz_deli)
   if katz_deli.empty?
     puts "The line is currently empty."
   else
-    (katz_deli.length).to_a.each do |i|
+      katz_deli.length.to_a.each do |i|
       katz_deli[i] = "#{(i + 1)}. #{katz_deli[i]} "
     end
     katz_deli.join
