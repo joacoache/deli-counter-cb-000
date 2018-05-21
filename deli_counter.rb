@@ -16,7 +16,6 @@ def take_a_number(katz_deli, name)
   end
 end
 
- Welcome, Ada. You are number 1 in line.
 
 def now_serving()
 
