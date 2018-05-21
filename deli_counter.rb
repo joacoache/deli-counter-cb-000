@@ -23,7 +23,7 @@ def now_serving(katz_deli)
 #    until katz_deli.length == 0
       puts "Currently serving #{katz_deli[0]}."
 #      katz_deli.shift
-    end
+#    end
   end
 end
 
