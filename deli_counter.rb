@@ -6,7 +6,7 @@ def line(katz_deli)
     (0..(katz_deli.length - 1)).to_a.each do |i|
     katz_deli[i] = "#{(i + 1)}. #{katz_deli[i]}"
     end
-    katz_deli.join(" ")
-    puts "The line is currently: #{katz_deli}"
+#    katz_deli.join(" ")
+    puts "The line is currently: #{katz_deli.join " "}"
    end
 end
