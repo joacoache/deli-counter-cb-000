@@ -12,7 +12,7 @@ end
 
 def take_a_number(katz_deli, name)
   katz_deli.each do |i|
-  puts "Welcome, #{i}. You are number #{(katz_deli.index(i)) + 1}1 in line."
+  puts "Welcome, #{i}. You are number #{(katz_deli.index(i))}1 in line."
   end
 end
 
