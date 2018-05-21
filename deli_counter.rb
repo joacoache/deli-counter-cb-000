@@ -1,9 +1,10 @@
 # Write your code here.
 def line(katz_deli)
+  (katz_deli.length).to_a = a
   if katz_deli.empty?
     puts "The line is currently empty."
   else
-      (katz_deli.length).to_a = a
+#      (katz_deli.length).to_a = a
       a.each do |i|
       katz_deli[i] = "#{(i + 1)}. #{katz_deli[i]} "
     end
